@@ -16,3 +16,7 @@
 !/log/.keep
 /tmp
 /spring/
+
+# Ignore emacs autosave files
+*~
+\#*\#
