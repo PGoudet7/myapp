@@ -1,0 +1,65 @@
+Beginning of buffer
+Auto-saving...done
+Auto-saving...done
+Saving file /home/pierre/rails_project/myapp/app/views/users/_user.html.erb...
+Wrote /home/pierre/rails_project/myapp/app/views/users/_user.html.erb
+Making completion list... [2 times]
+End of buffer
+Auto-saving...
+End of buffer
+<M-down> is undefined
+Auto-saving...done
+Auto-saving...done
+Auto-saving...done
+Saving file /home/pierre/rails_project/myapp/test/integration/users_index_test.rb...
+Wrote /home/pierre/rails_project/myapp/test/integration/users_index_test.rb
+Auto-saving...done
+Saving file /home/pierre/rails_project/myapp/test/integration/users_index_test.rb...
+Wrote /home/pierre/rails_project/myapp/test/integration/users_index_test.rb
+Saving file /home/pierre/rails_project/myapp/test/integration/users_index_test.rb...
+Wrote /home/pierre/rails_project/myapp/test/integration/users_index_test.rb
+(No changes need to be saved)
+Auto-saving...done
+Saving file /home/pierre/rails_project/myapp/test/test_helper.rb...
+Wrote /home/pierre/rails_project/myapp/test/test_helper.rb
+C-M-x C-x o is undefined
+Saving file /home/pierre/rails_project/myapp/test/integration/users_index_test.rb...
+Wrote /home/pierre/rails_project/myapp/test/integration/users_index_test.rb
+(No changes need to be saved)
+completing-read-default: Command attempted to use minibuffer while in minibuffer
+Beginning of buffer [2 times]
+Saving file /home/pierre/rails_project/myapp/test/controllers/users_controller_test.rb...
+Wrote /home/pierre/rails_project/myapp/test/controllers/users_controller_test.rb
+Making completion list...
+(No changes need to be saved)
+Saving file /home/pierre/rails_project/myapp/app/views/users/_user.html.erb...
+Wrote /home/pierre/rails_project/myapp/app/views/users/_user.html.erb
+Saving file /home/pierre/rails_project/myapp/app/views/users/_user.html.erb...
+Wrote /home/pierre/rails_project/myapp/app/views/users/_user.html.erb
+Saving file /home/pierre/rails_project/myapp/test/integration/users_index_test.rb...
+Wrote /home/pierre/rails_project/myapp/test/integration/users_index_test.rb
+Saving file /home/pierre/rails_project/myapp/app/views/users/_user.html.erb...
+Wrote /home/pierre/rails_project/myapp/app/views/users/_user.html.erb
+(No changes need to be saved)
+End of buffer [5 times]
+Saving file /home/pierre/rails_project/myapp/app/helpers/sessions_helper.rb...
+Wrote /home/pierre/rails_project/myapp/app/helpers/sessions_helper.rb
+Auto-saving...done
+End of buffer [5 times]
+Beginning of buffer [7 times]
+Saving file /home/pierre/rails_project/myapp/app/helpers/sessions_helper.rb...
+Wrote /home/pierre/rails_project/myapp/app/helpers/sessions_helper.rb
+Saving file /home/pierre/rails_project/myapp/app/controllers/users_controller.rb...
+Wrote /home/pierre/rails_project/myapp/app/controllers/users_controller.rb
+(No changes need to be saved)
+Making completion list...
+Saving file /home/pierre/rails_project/myapp/app/views/users/_user.html.erb...
+Wrote /home/pierre/rails_project/myapp/app/views/users/_user.html.erb
+(No changes need to be saved)
+C-x <prior> is undefined
+(No changes need to be saved) [2 times]
+Beginning of buffer
+C-x <up> is undefined
+Beginning of buffer [2 times]
+(No changes need to be saved) [3 times]
+completing-read-default: Command attempted to use minibuffer while in minibuffer
