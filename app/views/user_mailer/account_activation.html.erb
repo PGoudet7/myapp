@@ -1,0 +1,11 @@
+<h1>MY APP</h1>
+
+<p>
+Hi <%= @user.name %>  
+</p>
+
+<p>
+Welcome on my app Bro ! Almost done to complete your registration, just click there
+</p>
+
+<%= link_to "Activate", edit_account_activation_url(@user.activation_token, :email => @user.email) %>

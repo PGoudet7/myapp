@@ -5,7 +5,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
   def setup
     @user = users(:toto)
   end
-
+  
   test "login with invalid information" do
     get login_path
     assert_template 'sessions/new'
@@ -19,7 +19,8 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
 
   test "login with valid information" do
     get login_path
-    post login_path, session: { email: @user.email, password: 'password' }
+    post login_path, :session => { email: @user.email,
+                                   password: 'password' }
     assert_redirected_to @user
     follow_redirect!
     assert_template 'users/show'
@@ -52,6 +53,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
 
   test "login with remember" do
     log_in_as(@user, :remember_me => "1")
+    assert_not_nil cookies['remote_token']
     assert_equal cookies['remote_token'], assigns(:user).remember_token
   end
   
