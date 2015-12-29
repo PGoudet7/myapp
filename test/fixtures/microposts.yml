@@ -1,0 +1,29 @@
+hi:
+  content: "My name is mumu nice to meet you"
+  created_at: <%= 10.minutes.ago %>
+  user: archer
+
+hello:
+  content: "Are you there? I just want to make friends?"
+  created_at: <%= 5.minutes.ago %>
+  user: toto
+  
+depress:
+  content: "Why am I forever alone?"
+  created_at: <%= 2.minutes.ago %>
+  user: toto
+
+most_recent:
+  content: "Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+  created_at: <%= Time.zone.now %>
+  user: toto
+
+
+
+<% 30.times do |n| %>
+micropost_<%= n %>:
+  content: <%= Faker::Lorem.sentence(5) %>
+  created_at: <%= 42.days.ago %>
+  user: toto
+<% end %>
+      
