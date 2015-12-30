@@ -1,7 +1,7 @@
 hi:
   content: "My name is mumu nice to meet you"
   created_at: <%= 10.minutes.ago %>
-  user: archer
+  user: tata
 
 hello:
   content: "Are you there? I just want to make friends?"
