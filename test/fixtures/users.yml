@@ -6,10 +6,24 @@ toto:
   admin: true
   activated: true
   activated_at: <%= Time.zone.now %>
-  
+
 archer:
   name: Sterling Archer
   email: duchess@example.gov
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+tata:
+  name: Tata tutu
+  email: tata@tata.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
+tutu:
+  name: Tutu tutu
+  email: tutu@tutu.com
   password_digest: <%= User.digest('password') %>
   activated: true
   activated_at: <%= Time.zone.now %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  follower: archer
+  followed: toto
+
+two:
+  follower: tutu
+  followed: tata
+
+three:
+  follower: toto
+  followed: tutu
+
+four:
+  follower: toto
+  followed: tata
